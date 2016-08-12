@@ -7,7 +7,7 @@ public class EvenNumInIntervals {
 		int from = scanner.nextInt();
 		System.out.println("Enter the ending value");
 		int to = scanner.nextInt();
-		System.out.println("The odd numbers betwen the two values are:");
+		System.out.println("The even numbers betwen the two values are:");
 		for(int i=from;i<=to;i++){
 			if(i%2==0){
 				System.out.println(i);
